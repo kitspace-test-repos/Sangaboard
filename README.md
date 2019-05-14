@@ -6,15 +6,11 @@ The Sangaboard is a motor controller for unipolar stepper motors such as the che
 
 The first step is to make and populate the PCB.  You can get in touch with [STICLab](https://sticlab.co.tz) to order a v0.3 one if they have stock, eventually this should be possible through [Seeed Studio](https://www.seeedstudio.com). Alternatively have version 0.2 made via [Kit Space](https://kitspace.org/boards/github.com/rwb27/openflexure_nano_motor_controller/) (Please ignore the confusing name this will be fixed soon).
 
-
 ## Firmware and bootloader
 
-### V0.3
+#### [Installing the Sangaboard bootloader](./Bootloader/README.md)
 
-
-### V0.2
-Next you will need to download the Arduino sketch and upload it to the Arduino Nano.  You'll need some libraries, see the ``arduino_code`` folder's readme for that.
-
+#### [Installing the Sangaboard firmware](./arduino_code/README.md)
 
 ## Control
 
