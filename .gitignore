@@ -70,3 +70,6 @@ dist/
 # Sphinx documentation
 docs/_build/
 docs/API/*
+
+# IDE files
+.vscode/
