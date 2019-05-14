@@ -71,6 +71,7 @@
 
 #ifdef ARDUINO_AVR_LEONARDO
   #define SANGABOARDv3
+  #define BOARD_STRING "Sangaboard v0.3"
 #elif ARDUINO_AVR_SANGABOARD
   #define SANGABOARDv3
   #define BOARD_STRING "Sangaboard v0.3"
