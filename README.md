@@ -4,7 +4,7 @@ The Sangaboard is a motor controller for unipolar stepper motors such as the che
 
 ## Getting started
 
-The first step is to make and populate the PCB.  You can get in touch with [STICLab](https://sticlab.co.tz) to order a v0.3 one if they have stock, eventually this should be possible through [Seeed Studio](https://www.seeedstudio.com). Alternatively have [version 0.2](https://kitspace.org/boards/github.com/rwb27/openflexure_nano_motor_controller/) or [version 0.3](https://gitlab.com/bath_open_instrumentation_group/sangaboard) made via [Kit Space](https://kitspace.org).
+The first step is to make and populate the PCB.  You can get in touch with [STICLab](https://sticlab.co.tz) to order a v0.3 one if they have stock, eventually this should be possible through [Seeed Studio](https://www.seeedstudio.com). Alternatively have [version 0.2](https://kitspace.org/boards/github.com/rwb27/openflexure_nano_motor_controller/) or [version 0.3](https://gitlab.com/bath_open_instrumentation_group/sangaboard) made via [Kitspace](https://kitspace.org).
 
 ## Firmware and bootloader
 
