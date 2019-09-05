@@ -1,10 +1,10 @@
 # Sangaboard
 
-The Sangaboard is a motor controller for unipolar stepper motors such as the cheap 28BYJ-48 motors. The custom board (v0.3) can be programmed and an Arduino Leonardo in the Arduino IDE. Versions 0.1 and 0.2 were based on an Arduino Nano and a couple of Darlington pair ICs.  It owes quite a bit to [Fergus Riche's motor board](https://github.com/fr293/motor_board), the hardware developed by [OpenScope](http://2015.igem.org/Team:Cambridge-JIC) and the Arduino-based motor controller used by a number of summer students working with Richard Bowman in Cambridge, particularly James Sharkey.  It is currently the motor board used by the [OpenFlexure Microscope](https://gitlab.com/openflexure/openflexure-microscope).
+The Sangaboard is a motor controller for unipolar stepper motors such as the cheap 28BYJ-48 motors. The custom board (v0.3) can be programmed as an Arduino Leonardo in the Arduino IDE. Versions 0.1 and 0.2 were based on an Arduino Nano and a couple of Darlington pair ICs.  It owes quite a bit to [Fergus Riche's motor board](https://github.com/fr293/motor_board), the hardware developed by [OpenScope](http://2015.igem.org/Team:Cambridge-JIC) and the Arduino-based motor controller used by a number of summer students working with Richard Bowman in Cambridge, particularly James Sharkey.  It is currently the motor board used by the [OpenFlexure Microscope](https://gitlab.com/openflexure/openflexure-microscope).  It was formerly known as the OpenFlexure Nano Motor Controller, with a [repository on github](https://github.com/rwb27/openflexure_nano_motor_controller).
 
 ## Getting started
 
-The first step is to make and populate the PCB.  You can get in touch with [STICLab](https://sticlab.co.tz) to order a v0.3 one if they have stock, eventually this should be possible through [Seeed Studio](https://www.seeedstudio.com). Alternatively have version 0.2 made via [Kit Space](https://kitspace.org/boards/github.com/rwb27/openflexure_nano_motor_controller/) (Please ignore the confusing name this will be fixed soon).
+The first step is to make and populate the PCB.  You can get in touch with [STICLab](https://sticlab.co.tz) to order a v0.3 one if they have stock, eventually this should be possible through [Seeed Studio](https://www.seeedstudio.com). Alternatively have [version 0.2](https://kitspace.org/boards/github.com/rwb27/openflexure_nano_motor_controller/) or [version 0.3](https://gitlab.com/bath_open_instrumentation_group/sangaboard) made via [Kit Space](https://kitspace.org).
 
 ## Firmware and bootloader
 
@@ -14,9 +14,7 @@ The first step is to make and populate the PCB.  You can get in touch with [STIC
 
 ## Control
 
-The stage can be controlled by serial commands
-
-TODO: List them!!
+The stage can be controlled by serial commands, which can be listed by sending the query ``help?`` to the board over the serial port.
 
 Or by the pySangaboard python library.
 
