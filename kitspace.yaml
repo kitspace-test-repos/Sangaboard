@@ -2,3 +2,4 @@ gerbers: pcb_design/gerbers
 bom: pcb_design/1-click-bom.tsv
 site: https://gitlab.com/bath_open_instrumentation_group/sangaboard
 color: blue
+summary: An Arduino-compatible motor driver board for three unipolar stepper motors.
