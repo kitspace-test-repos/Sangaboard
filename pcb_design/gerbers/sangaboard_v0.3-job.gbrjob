@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.0.2-bee76a0~70~ubuntu16.04.1"
+      "Version":     "5.1.5-52549c5~84~ubuntu18.04.1"
     },
-    "CreationDate":  "2019-01-15T14:46:21+00:00"
+    "CreationDate":  "2020-01-13T18:21:35+00:00"
   },
   "GeneralSpecs":
   {
@@ -40,37 +40,37 @@
   "FilesAttributes":
   [
     {
-      "Path":  "sangaboard_v0.3-F.Cu.gbr",
+      "Path":  "sangaboard_v0.3-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "sangaboard_v0.3-B.Cu.gbr",
+      "Path":  "sangaboard_v0.3-B_Cu.gbl",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "sangaboard_v0.3-F.SilkS.gbr",
+      "Path":  "sangaboard_v0.3-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "sangaboard_v0.3-B.SilkS.gbr",
+      "Path":  "sangaboard_v0.3-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "sangaboard_v0.3-F.Mask.gbr",
+      "Path":  "sangaboard_v0.3-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "sangaboard_v0.3-B.Mask.gbr",
+      "Path":  "sangaboard_v0.3-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "sangaboard_v0.3-Edge.Cuts.gbr",
+      "Path":  "sangaboard_v0.3-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

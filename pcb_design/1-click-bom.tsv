@@ -1,0 +1,42 @@
+References	Qty	Description
+C1	1	C 0.1uF Unpolarized capacitor 0805
+C2, C3	2	C 22pF Unpolarized capacitor 0805
+C4	1	CP1 10uF Polarized capacitor, US symbol CP Elec 4x5.7
+C6, C7, C11, C10	4	C 1uF Unpolarized capacitor 0805
+C8	1	CP1 10uF Polarized capacitor, US symbol CP Elec 4x5.8
+C9, C5	2	C 100n Unpolarized capacitor 0805
+D3, D4, D1, D2	4	D DW2W31900L Diode SOD-123F
+D5	1	D CD1206-SO1575 Diode SOD-123F
+D6	1	LED ALT RED PWR Light emitting diode, filled shape 0805
+D7	1	LED ALT GREEN Light emitting diode, filled shape 0805
+D8	1	LED ALT YELLOW Light emitting diode, filled shape 0805
+D9	1	LED ALT BLUE MTR Light emitting diode, filled shape 0805
+D10	1	D Bridge +-AA CD HD2004 Diode bridge, +ve/-ve/AC/AC CD-HD2004
+F1	1	Polyfuse Small 1A25 3A Resettable fuse, polymeric positive temperature coefficient, small symbol R 1210
+F3, F4, F2	3	Polyfuse Small 0A35 0A7 Resettable fuse, polymeric positive temperature coefficient, small symbol R 1206
+F5	1	Polyfuse Small 0A5 1A Resettable fuse, polymeric positive temperature coefficient, small symbol R 1206
+J1	1	USB OTG Supply mini/micro connector Micro-B
+J2	1	USB A POWER OUT Type connector
+J3	1	Conn 02x03 Odd Even END STOPS Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) Pin Header Straight 2x03 Pitch2.54mm
+J4	1	Conn 02x02 Odd Even I2C Header Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) Pin Straight 2x02 Pitch2.54mm
+J5	1	Conn 02x02 Odd Even Serial1 Header Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) Pin Straight 2x02 Pitch2.54mm
+J6	1	Conn 02x06 Odd Even I/O Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) Pin Header Straight 2x06 Pitch2.54mm
+J7	1	Conn 01x03 Power Pack Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/) Pin Header Straight 1x03 Pitch2.54mm
+J8	1	Conn 02x02 Odd Even J AUX Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) Pin Header Straight 2x02 Pitch2.54mm
+J9	1	Conn 02x04 Odd Even ULN AUX Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/) Pin Header Straight 2x04 Pitch2.54mm
+J10	1	AVR-ISP-6 ISP Atmel 6-pin connector Pin Header Straight 2x03 Pitch2.54mm
+J11	1	USB OTG mini/micro connector Micro-B
+J12	1	Conn 01x05 X AXIS Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/) JST XH S05B-XH-A 05x2.50mm Angled
+J13	1	Conn 01x05 Y AXIS Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/) JST XH S05B-XH-A 05x2.50mm Angled
+J14	1	Conn 01x05 Z AXIS Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/) JST XH S05B-XH-A 05x2.50mm Angled
+L1, L2	2	Ferrite Bead bead R 0805 HandSoldering
+MH1, MH2, MH3, MH4	4	MountingHole Pad Mounting Hole with connection 3.1 hole
+R3, R4	2	R Small 22 Resistor, small symbol 0805
+R5, R6, R2, R1	4	R 10K Resistor 0805
+RN1	1	R Pack04 1K 4 resistor network, parallel topology, DIP package Array Concave 4x0603
+RV2, RV1	2	Varistor Voltage dependent resistor R 0603
+TP1, TP2, TP3	3	TestPoint test point Measurement Point Square-SMD-Pad Small
+U1	1	ATmega32U4-MU 16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, QFN-44 TQFP-44-1EP 10x10mm Pitch0.8mm
+U2, U3	2	ULN2003A High Voltage, Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16 SOIC-16 W3.90mm
+Y1	1	Crystal GND24 16MHz Four pin crystal, GND on pins 2 and 4 SMD 3225-4pin 3.2x2.5mm
+~RST1	1	SW Push Reset button switch, generic, two pins Pin Header Straight 1x02 Pitch2.54mm
