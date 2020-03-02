@@ -1,5 +1,6 @@
 multi: 
     sangaboard_v0.3:
+        readme: README.md
         gerbers: pcb_design/v0.3/gerbers
         bom: pcb_design/v0.3/Sangaboard v3 BOM.xlsx
         site: https://openflexure.org
@@ -9,6 +10,7 @@ multi:
             type: kicad
             pcb: pcb_design/v0.3/sangaboard_v0.3.kicad_pcb
     sangaboard_v0.4:
+        readme: README.md
         bom: pcb_design/v0.4/1-click-bom.csv
         site: https://openflexure.org
         color: black
