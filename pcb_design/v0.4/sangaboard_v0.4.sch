@@ -3602,7 +3602,7 @@ U 1 1 5E59B800
 P 10550 7700
 F 0 "JP4" H 10550 7800 50  0000 C CNN
 F 1 "Jumper_NC" H 10550 7650 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 10550 7700 50  0001 C CNN
+F 2 "project_footprints:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_custom" H 10550 7700 50  0001 C CNN
 F 3 "~" H 10550 7700 50  0001 C CNN
 	1    10550 7700
 	1    0    0    -1  
@@ -3613,7 +3613,7 @@ U 1 1 5E59A060
 P 10550 7400
 F 0 "JP3" H 10550 7500 50  0000 C CNN
 F 1 "Jumper_NC" H 10550 7350 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 10550 7400 50  0001 C CNN
+F 2 "project_footprints:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_custom" H 10550 7400 50  0001 C CNN
 F 3 "~" H 10550 7400 50  0001 C CNN
 	1    10550 7400
 	1    0    0    -1  
@@ -3624,7 +3624,7 @@ U 1 1 5E673CEA
 P 8250 8050
 F 0 "JP1" H 8250 8150 50  0000 C CNN
 F 1 "Jumper_NC" H 8350 7950 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 8250 8050 50  0001 C CNN
+F 2 "project_footprints:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_custom" H 8250 8050 50  0001 C CNN
 F 3 "~" H 8250 8050 50  0001 C CNN
 	1    8250 8050
 	0    -1   -1   0   
@@ -3635,7 +3635,7 @@ U 1 1 5E674B69
 P 8650 8050
 F 0 "JP2" H 8650 8150 50  0000 C CNN
 F 1 "Jumper_NC" H 8750 7950 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 8650 8050 50  0001 C CNN
+F 2 "project_footprints:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm_custom" H 8650 8050 50  0001 C CNN
 F 3 "~" H 8650 8050 50  0001 C CNN
 	1    8650 8050
 	0    -1   -1   0   
