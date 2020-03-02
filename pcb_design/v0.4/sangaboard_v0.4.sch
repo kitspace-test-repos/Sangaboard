@@ -69,17 +69,6 @@ F 3 " ~" H 4375 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L sangaboard_v0.4-rescue:ATmega32U4-MU-MCU_Microchip_ATmega U1
-U 1 1 5B6F8DCF
-P 3100 3950
-F 0 "U1" H 3200 2150 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 3050 2550 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44-1EP_10x10mm_P0.8mm_EP4.5x4.5mm" H 3100 3950 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3100 3950 50  0001 C CNN
-	1    3100 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L sangaboard_v0.4-rescue:C-Device C3
 U 1 1 5B6F9050
 P 1300 3000
@@ -3680,4 +3669,15 @@ Text Label 15050 5000 2    50   ~ 0
 A3
 Wire Wire Line
 	14400 5000 15050 5000
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5E61729B
+P 3100 3950
+F 0 "U1" H 3100 2061 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 3100 1970 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3100 3950 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3100 3950 50  0001 C CNN
+	1    3100 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
