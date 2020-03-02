@@ -65,7 +65,7 @@
     (grid_origin 200 150)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -88,9 +88,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers"))
   )
 
   (net 0 "")
@@ -5407,7 +5407,7 @@
   (segment (start 203.8 108.025) (end 203.535 107.76) (width 0.2) (layer F.Cu) (net 96))
   (segment (start 203.8 110.43) (end 203.8 108.025) (width 0.2) (layer F.Cu) (net 96))
 
-  (zone (net 92) (net_name GND) (layer B.Cu) (tstamp 5E34CC83) (hatch edge 0.508)
+  (zone (net 92) (net_name GND) (layer B.Cu) (tstamp 5E5D5C19) (hatch edge 0.508)
     (connect_pads (clearance 0.4))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -5966,7 +5966,7 @@
       )
     )
   )
-  (zone (net 92) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 92) (net_name GND) (layer F.Cu) (tstamp 5E5D5C16) (hatch edge 0.508)
     (connect_pads (clearance 0.4))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing fillet) (radius 0.1))
