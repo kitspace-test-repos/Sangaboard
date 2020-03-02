@@ -1,5 +1,19 @@
-gerbers: pcb_design/gerbers
-bom: pcb_design/Sangaboard v3 BOM.xlsx
-site: https://gitlab.com/bath_open_instrumentation_group/sangaboard
-color: blue
-summary: An Arduino-compatible motor driver board for three unipolar stepper motors.
+multi: 
+    sangaboard_v0.3:
+        gerbers: pcb_design/v0.3/gerbers
+        bom: pcb_design/v0.3/Sangaboard v3 BOM.xlsx
+        site: https://openflexure.org
+        color: blue
+        summary: An Arduino-compatible motor driver board for three unipolar stepper motors. Versiom 0.3
+        eda: 
+            type: kicad
+            pcb: pcb_design/v0.3/sangaboard_v0.3.kicad_pcb
+    sangaboard_v0.4:
+        bom: pcb_design/v0.4/1-click-bom.csv
+        site: https://openflexure.org
+        color: black
+        summary: An Arduino-compatible motor driver board and Pi-Hat for three unipolar stepper motors. Versiom 0.4
+        eda: 
+            type: kicad
+            pcb: pcb_design/v0.4/sangaboard_v0.4.kicad_pcb
+
