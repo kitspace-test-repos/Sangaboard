@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:sangaboard_v0.4-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -679,23 +678,23 @@ Wire Wire Line
 Wire Wire Line
 	5950 2800 5950 2850
 $Comp
-L sangaboard_v0.4-rescue:CP1-Device C4
+L sangaboard_v0.4-rescue:C-Device C4
 U 1 1 5BDAC320
 P 1900 7800
 F 0 "C4" H 2015 7846 50  0000 L CNN
 F 1 "10uF" H 2015 7755 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.8" H 1900 7800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1900 7800 50  0001 C CNN
 F 3 "~" H 1900 7800 50  0001 C CNN
 	1    1900 7800
 	1    0    0    -1  
 $EndComp
 $Comp
-L sangaboard_v0.4-rescue:CP1-Device C5
+L sangaboard_v0.4-rescue:C-Device C5
 U 1 1 5BDACDD8
 P 1950 10200
 F 0 "C5" H 2065 10246 50  0000 L CNN
 F 1 "10uF" H 2065 10155 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.7" H 1950 10200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1950 10200 50  0001 C CNN
 F 3 "~" H 1950 10200 50  0001 C CNN
 	1    1950 10200
 	1    0    0    -1  
@@ -2345,23 +2344,23 @@ $EndComp
 Wire Wire Line
 	7350 7350 7350 7150
 $Comp
-L sangaboard_v0.4-rescue:CP1-Device C12
+L sangaboard_v0.4-rescue:C-Device C12
 U 1 1 5D768E99
 P 6700 8050
 F 0 "C12" H 6815 8096 50  0000 L CNN
 F 1 "10uF" H 6815 8005 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.8" H 6700 8050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 8050 50  0001 C CNN
 F 3 "~" H 6700 8050 50  0001 C CNN
 	1    6700 8050
 	1    0    0    -1  
 $EndComp
 $Comp
-L sangaboard_v0.4-rescue:CP1-Device C11
+L sangaboard_v0.4-rescue:C-Device C11
 U 1 1 5D79EE73
 P 5900 7950
 F 0 "C11" H 6015 7996 50  0000 L CNN
 F 1 "10uF" H 6015 7905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.8" H 5900 7950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5900 7950 50  0001 C CNN
 F 3 "~" H 5900 7950 50  0001 C CNN
 	1    5900 7950
 	1    0    0    -1  
@@ -3435,7 +3434,7 @@ Wire Wire Line
 	1350 7850 1350 7800
 Connection ~ 1300 7850
 $Comp
-L 10pins-raspberrypi_hat:10Pins-raspberrypi_hat J14
+L sangaboard_v0.4-rescue:10Pins-raspberrypi_hat-10pins-raspberrypi_hat J14
 U 1 1 5E32521F
 P 13800 4000
 F 0 "J14" H 13800 4225 50  0000 C CNN
@@ -3446,7 +3445,7 @@ F 3 "" H 13100 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L eeprom-raspberrypi_hat:EEPROM-raspberrypi_hat J15
+L sangaboard_v0.4-rescue:EEPROM-raspberrypi_hat-eeprom-raspberrypi_hat J15
 U 1 1 5E3266BA
 P 14100 5000
 F 0 "J15" H 13800 5225 50  0000 C CNN
