@@ -40,7 +40,7 @@ L sangaboard_v0.4-rescue:ULN2003A-Transistor_Array U3
 U 1 1 5B6F6D24
 P 8400 2250
 F 0 "U3" H 8400 2917 50  0000 C CNN
-F 1 "ULN2003A" H 8400 2826 50  0000 C CNN
+F 1 "ULN2003ADR" H 8400 2826 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8450 1700 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 8500 2050 50  0001 C CNN
 	1    8400 2250
@@ -162,7 +162,7 @@ L sangaboard_v0.4-rescue:ULN2003A-Transistor_Array U4
 U 1 1 5B702C81
 P 8400 4050
 F 0 "U4" H 8400 4717 50  0000 C CNN
-F 1 "ULN2003A" H 8400 4626 50  0000 C CNN
+F 1 "ULN2003ADR" H 8400 4626 50  0000 C CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 8450 3500 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/uln2003a.pdf" H 8500 3850 50  0001 C CNN
 	1    8400 4050

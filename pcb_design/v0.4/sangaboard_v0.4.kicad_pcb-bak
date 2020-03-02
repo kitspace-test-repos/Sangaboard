@@ -878,6 +878,7 @@
   (module project_footprints:NPTH_3mm_ID locked (layer F.Cu) (tedit 58E34364) (tstamp 5E29E88F)
     (at 200.36 140.734)
     (path /5D54ABA5)
+    (attr virtual)
     (fp_text reference H4 (at 0.06 0.09) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -891,6 +892,7 @@
   (module project_footprints:NPTH_3mm_ID locked (layer F.Cu) (tedit 58E34364) (tstamp 5E29E8E9)
     (at 258.36 140.734)
     (path /5D54AB8D)
+    (attr virtual)
     (fp_text reference H3 (at 0.06 0.09) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -904,6 +906,7 @@
   (module project_footprints:NPTH_3mm_ID locked (layer F.Cu) (tedit 58E34364) (tstamp 5E29E8CB)
     (at 258.36 91.734)
     (path /5D54AB99)
+    (attr virtual)
     (fp_text reference H2 (at 0.06 0.09) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -917,6 +920,7 @@
   (module project_footprints:NPTH_3mm_ID locked (layer F.Cu) (tedit 58E34364) (tstamp 5E29E8AD)
     (at 200.36 91.734)
     (path /5D54AB81)
+    (attr virtual)
     (fp_text reference H1 (at 0.06 0.09) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
