@@ -12,6 +12,7 @@ multi:
     sangaboard_v0.4:
         readme: README.md
         bom: pcb_design/v0.4/1-click-bom.csv
+        gerbers: pcb_design/v0.4/gerbers
         site: https://openflexure.org
         color: black
         summary: An Arduino-compatible motor driver board and Pi hat for three unipolar stepper motors. Version 0.4
