@@ -4,7 +4,7 @@ multi:
         bom: pcb_design/v0.3/Sangaboard v3 BOM.xlsx
         site: https://openflexure.org
         color: blue
-        summary: An Arduino-compatible motor driver board for three unipolar stepper motors. Versiom 0.3
+        summary: An Arduino-compatible motor driver board for three unipolar stepper motors. Version 0.3
         eda: 
             type: kicad
             pcb: pcb_design/v0.3/sangaboard_v0.3.kicad_pcb
@@ -12,7 +12,7 @@ multi:
         bom: pcb_design/v0.4/1-click-bom.csv
         site: https://openflexure.org
         color: black
-        summary: An Arduino-compatible motor driver board and Pi-Hat for three unipolar stepper motors. Versiom 0.4
+        summary: An Arduino-compatible motor driver board and Pi hat for three unipolar stepper motors. Version 0.4
         eda: 
             type: kicad
             pcb: pcb_design/v0.4/sangaboard_v0.4.kicad_pcb
