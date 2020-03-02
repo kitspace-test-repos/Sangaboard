@@ -38,6 +38,28 @@ X GND 9 -600 -400 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# 10Pins-raspberrypi_hat-10pins-raspberrypi_hat
+#
+DEF 10Pins-raspberrypi_hat-10pins-raspberrypi_hat J 0 40 Y Y 1 F N
+F0 "J" 350 100 50 H V C CNN
+F1 "10Pins-raspberrypi_hat-10pins-raspberrypi_hat" -300 100 50 H V C CNN
+F2 "Connector_PinSocket_2.54mm:PinSocket_2x5_P2.54mm_Vertical" 0 200 50 H I C CNN
+F3 "" -700 0 50 H V C CNN
+DRAW
+S -400 50 400 -450 0 1 0 N
+X P3V3 1 -600 0 200 R 50 50 1 1 B
+X BCM15 10 600 -400 200 L 50 50 1 1 B
+X P5V 2 600 0 200 L 50 50 1 1 B
+X BCM2 3 -600 -100 200 R 50 50 1 1 B
+X P5V 4 600 -100 200 L 50 50 1 1 B
+X BCM3 5 -600 -200 200 R 50 50 1 1 B
+X GND 6 600 -200 200 L 50 50 1 1 B
+X BCM4 7 -600 -300 200 R 50 50 1 1 B
+X BCM14 8 600 -300 200 L 50 50 1 1 B
+X GND 9 -600 -400 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # ATmega32U4-MU-MCU_Microchip_ATmega
 #
 DEF ATmega32U4-MU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
@@ -482,6 +504,22 @@ P 3 0 1 8 -50 -50 -50 50 -30 50 N
 P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EEPROM-raspberrypi_hat-eeprom-raspberrypi_hat
+#
+DEF EEPROM-raspberrypi_hat-eeprom-raspberrypi_hat J 0 40 Y Y 1 F N
+F0 "J" -300 100 50 H V C CNN
+F1 "EEPROM-raspberrypi_hat-eeprom-raspberrypi_hat" -300 -200 50 H V C CNN
+F2 "Connector_PinSocket_2.54mm:PinSocket_2x2_P2.54mm_Vertical" 0 200 50 H I C CNN
+F3 "" -700 0 50 H V C CNN
+DRAW
+S -700 50 100 -150 0 1 0 N
+X GND 25 -900 0 200 R 50 50 1 1 B
+X BCM7 26 300 0 200 L 50 50 1 1 B
+X BCM0 27 -900 -100 200 R 50 50 1 1 B
+X BCM1 28 300 -100 200 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #

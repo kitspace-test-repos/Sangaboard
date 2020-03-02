@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "sangaboard PiHAT/Standalone"
-Date ""
+Date "2020-02-26"
 Rev "Rro_V0.4"
 Comp ""
 Comment1 ""
@@ -3678,7 +3678,7 @@ Connection ~ 11350 7700
 Wire Wire Line
 	11350 7700 11350 7900
 Text Label 15050 5000 2    50   ~ 0
-D3
+A3
 Wire Wire Line
 	14400 5000 15050 5000
 $EndSCHEMATC
