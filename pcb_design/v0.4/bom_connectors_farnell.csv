@@ -1,0 +1,6 @@
+References,Qty,Description,Manufacturer,MPN,Manufacturer,MPN,Digikey,Mouser,RS,Newark,Farnell
+"J3, J4, J5, J6, J8, J9, J13, RST1",1,2.54mm header two row breakaway,,,,,,,,,3418560
+J15,1,EEPROM-raspberrypi hat EEPROM-raspberrypi hat,Würth Elektronik,61300421821,,,,,,,2827889
+J14,1,2x05 2.54mm Vertical female,Harwin,M20-7830546,Samtec,SSW-105-01-G-D,,,,,1593490
+"J10, J11, J12",1,B5B-XH-A,JST,B5B-XH-A,,,,,,,1516281
+"J1, J2",2,USB Micro-B,Molex,105017-0001,,,,,,,2293836
