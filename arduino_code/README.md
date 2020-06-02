@@ -13,9 +13,7 @@ Requires version 1.6.2 or higher
 ## Install libraries for Adafruit
 
 ### Arduino CLI
-* `arduino-cli lib install "Adafruit TSL2591 Library"`
-* `arduino-cli lib install "Adafruit Unified Sensor"`
-* `arduino-cli lib install "Adafruit ADS1X15"`
+`arduino-cli lib install "Adafruit TSL2591 Library" "Adafruit Unified Sensor" "Adafruit ADS1X15"`
 
 ### Manual installation
 Adafruit libraries are required for light sensor support. These libraries can be installed in the Aruino library directory (normally `~/Arduino/libraries` on Linux or `My Documents\Arduino\libraries` on Windows) and can be found on the [adafruit github](https://github.com/adafruit).
