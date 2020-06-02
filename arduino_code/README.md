@@ -13,11 +13,9 @@ First, [install the Arduino CLI](https://arduino.github.io/arduino-cli/installat
 `arduino-cli lib install "Adafruit TSL2591 Library" "Adafruit Unified Sensor" "Adafruit ADS1X15"`
 
 ### Install AVR core
-`arduino-cli core update-index`
+`arduino-cli core update-index && arduino-cli core install arduino:avr`
 
-`arduino-cli core install arduino:avr`
-
-### Attach a board
+### Attach the firmware to a board
 
 **Find your boards COM port**
 
