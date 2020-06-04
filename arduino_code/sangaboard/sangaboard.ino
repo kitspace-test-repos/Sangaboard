@@ -81,7 +81,7 @@
 #endif
 
 #define EACH_MOTOR for(int i=0; i<n_motors; i++)
-#define VER_STRING "Sangaboard Firmware v0.5"
+#define VER_STRING "Sangaboard Firmware v0.5.1"
 
 // The array below has 3 stepper objects, for X,Y,Z respectively
 const int n_motors = 3;
@@ -127,7 +127,7 @@ void setup() {
     motors[2] = new Stepper(8, 6, 7, A5, A4);
   #endif
   EACH_MOTOR{
-    motors[i]->setSpeed(1*8.0/4096.0); //using Fergus's speed for now, though this is ignored...
+    motors[i]->setSpeed(10); // as a default set to 10 rpm, though this is ignored...
     steps_remaining[i]=0;
     EEPROM.get(sizeof(long)*i, current_pos[i]); //read last saved position from EEPROM
     //current_pos[i] = 0; //alternatively, reset on power cycle!
