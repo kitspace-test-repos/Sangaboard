@@ -9,8 +9,10 @@ The first step is to make and populate the PCB.  You can get in touch with [STIC
 ## Firmware and bootloader
 
 #### [Installing the Sangaboard bootloader](./Bootloader/README.md)
+You only need to isntall a bootloader if you solder your own v0.3 or v0.4 Sangaboard! Otherwise you can skip this step.
 
 #### [Installing the Sangaboard firmware](./arduino_code/README.md)
+The Sangaboard firmware is an Arduino sketch, we use the same sketch for all versions of the Sangaboard.
 
 ## Control
 

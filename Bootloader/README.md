@@ -1,6 +1,8 @@
 # Bootloader for the Sangaboard, and Arduino IDE integration
 
-The sangaboard works perfectly well with the Ardunio Leonardo bootloader but it is preferable to have a custom one so the board identifies as what it is. This repo allows you to burn the custom bootloader and to have the Sangaboard as a board option in your IDE.
+You only need to isntall a bootloader if you solder your own v0.3 or v0.4 Sangaboard! Otherwise you can skip this step.
+
+The Sangaboard v0.4 and v0.4 works perfectly well with the Ardunio Leonardo bootloader, but it is preferable to have a custom one so the board identifies as what it is. This repo allows you to burn the custom bootloader and to have the Sangaboard as a board option in your IDE.
 
 ## Installing the Sangaboard into the Arduino IDE
 
