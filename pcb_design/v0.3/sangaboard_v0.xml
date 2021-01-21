@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/js3214/Dropbox/Bath/OpenLab/Designs/sangaboard_v0.3/sangaboard_v0.3.sch</source>
-    <date>Wed 23 Jan 2019 16:40:06 GMT</date>
-    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1</tool>
+    <source>/home/kaspar/projects/bath/sangaboard/pcb_design/v0.3/sangaboard_v0.3.sch</source>
+    <date>Mon 05 Oct 2020 10:26:06 BST</date>
+    <tool>Eeschema 5.1.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>sangaboard</title>
@@ -494,7 +494,7 @@
       <value>1K</value>
       <footprint>Resistors_SMD:R_Array_Concave_4x0603</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology, DIP package"/>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B7DE043</tstamp>
     </comp>
@@ -537,11 +537,11 @@
       </fields>
       <pins>
         <pin num="1" name="MISO" type="passive"/>
-        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="2" name="VCC" type="passive"/>
         <pin num="3" name="SCK" type="passive"/>
         <pin num="4" name="MOSI" type="passive"/>
         <pin num="5" name="~RST" type="passive"/>
-        <pin num="6" name="GND" type="power_in"/>
+        <pin num="6" name="GND" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="TestPoint">
@@ -861,11 +861,13 @@
       </pins>
     </libpart>
     <libpart lib="Device" part="R_Pack04">
-      <description>4 resistor network, parallel topology, DIP package</description>
+      <description>4 resistor network, parallel topology</description>
       <docs>~</docs>
       <footprints>
         <fp>DIP*</fp>
         <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
       </footprints>
       <fields>
         <field name="Reference">RN</field>
@@ -930,47 +932,47 @@
         <field name="Footprint">Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm</field>
       </fields>
       <pins>
-        <pin num="1" name="PE6" type="3state"/>
+        <pin num="1" name="PE6" type="BiDi"/>
         <pin num="2" name="UVCC" type="power_in"/>
         <pin num="3" name="D-" type="BiDi"/>
         <pin num="4" name="D+" type="BiDi"/>
         <pin num="5" name="UGND" type="passive"/>
         <pin num="6" name="UCAP" type="passive"/>
         <pin num="7" name="VBUS" type="input"/>
-        <pin num="8" name="PB0" type="3state"/>
-        <pin num="9" name="PB1" type="3state"/>
-        <pin num="10" name="PB2" type="3state"/>
-        <pin num="11" name="PB3" type="3state"/>
-        <pin num="12" name="PB7" type="3state"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
         <pin num="13" name="~RESET" type="input"/>
         <pin num="14" name="VCC" type="power_in"/>
         <pin num="15" name="GND" type="power_in"/>
         <pin num="16" name="XTAL2" type="output"/>
         <pin num="17" name="XTAL1" type="input"/>
-        <pin num="18" name="PD0" type="3state"/>
-        <pin num="19" name="PD1" type="3state"/>
-        <pin num="20" name="PD2" type="3state"/>
-        <pin num="21" name="PD3" type="3state"/>
-        <pin num="22" name="PD5" type="3state"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
         <pin num="23" name="GND" type="passive"/>
         <pin num="24" name="AVCC" type="power_in"/>
-        <pin num="25" name="PD4" type="3state"/>
-        <pin num="26" name="PD6" type="3state"/>
-        <pin num="27" name="PD7" type="3state"/>
-        <pin num="28" name="PB4" type="3state"/>
-        <pin num="29" name="PB5" type="3state"/>
-        <pin num="30" name="PB6" type="3state"/>
-        <pin num="31" name="PC6" type="3state"/>
-        <pin num="32" name="PC7" type="3state"/>
-        <pin num="33" name="~HWB~/PE2" type="3state"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
         <pin num="34" name="VCC" type="passive"/>
         <pin num="35" name="GND" type="passive"/>
-        <pin num="36" name="PF7" type="3state"/>
-        <pin num="37" name="PF6" type="3state"/>
-        <pin num="38" name="PF5" type="3state"/>
-        <pin num="39" name="PF4" type="3state"/>
-        <pin num="40" name="PF1" type="3state"/>
-        <pin num="41" name="PF0" type="3state"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
         <pin num="42" name="AREF" type="passive"/>
         <pin num="43" name="GND" type="passive"/>
         <pin num="44" name="AVCC" type="passive"/>
@@ -993,6 +995,7 @@
     </libpart>
     <libpart lib="Switch" part="SW_Push">
       <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
       <fields>
         <field name="Reference">SW</field>
         <field name="Value">SW_Push</field>
@@ -1103,13 +1106,13 @@
       <node ref="J3" pin="4"/>
       <node ref="~RST1" pin="1"/>
       <node ref="J3" pin="2"/>
-      <node ref="RN1" pin="8"/>
+      <node ref="RN1" pin="5"/>
       <node ref="U2" pin="8"/>
       <node ref="U1" pin="23"/>
       <node ref="C3" pin="2"/>
-      <node ref="RN1" pin="7"/>
       <node ref="RN1" pin="6"/>
-      <node ref="RN1" pin="5"/>
+      <node ref="RN1" pin="7"/>
+      <node ref="RN1" pin="8"/>
       <node ref="J3" pin="6"/>
       <node ref="J6" pin="8"/>
       <node ref="C9" pin="1"/>
