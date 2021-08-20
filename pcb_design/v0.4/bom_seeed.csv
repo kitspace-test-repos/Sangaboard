@@ -1,0 +1,30 @@
+Designator,Manufacturer Part Number or Seeed SKU,Qty,Link
+Y1,DSC1001CL5-008.0000T,1,https://lcsc.com/product-detail/C133366.html
+U5,CAT24C32WI-GT3,1,https://lcsc.com/product-detail/C81193.html
+"U3, U4",ULN2003ADR,2,https://lcsc.com/product-detail/C7512.html
+U2,MCP1700T-3302E/TT,1,https://lcsc.com/product-detail/C39051.html
+U1,ATMEGA32U4-AU,1,https://lcsc.com/product-detail/C44854.html
+"RV1, RV2",RL0603E005M015K,2,https://lcsc.com/product-detail/C20956.html
+"R5, R8, R20",0603WAF1002T5E,3,https://lcsc.com/product-detail/C25804.html
+"R3, R4",QR0603F220RP05Z,2,https://lcsc.com/product-detail/C176129.html
+"R6, R7, R11, R13",0603WAF1002T5E,4,https://lcsc.com/product-detail/C25804.html
+"R9, R10, R12, R16",CRCW060347K0FKEA,4,https://lcsc.com/product-detail/C25819.html
+"R21, R22",0603WAF3901T5E,2,https://lcsc.com/product-detail/C23018.html
+"R14, R15, R17, R18",0805W8F1001T5E,4,https://lcsc.com/product-detail/C17513.html
+"R1, R2",0805W8F1501T5E,2,https://lcsc.com/product-detail/C4310.html
+"Q3, Q4, Q6, Q8",DMG2305UX-13,4,https://lcsc.com/product-detail/C144153.html
+"Q1, Q2, Q5, Q7",DMMT5401-7,4,https://lcsc.com/product-detail/C154733.html
+"L1, L2",MPZ2012S601A,2,https://lcsc.com/product-detail/C1017.html
+"J10, J11, J12",B5B-XH-A,3,https://lcsc.com/product-detail/C161872.html
+"J1, J2",105017-0001,2,
+F2,1210L300SLWR,1,https://lcsc.com/product-detail/C315895.html
+"F1, F3, F4, F5",1206L050/15YR,4,https://lcsc.com/product-detail/C369154.html
+D5,APHCM2012CGCK-F01,1,https://lcsc.com/product-detail/C2296.html
+D4,APT2012SGC,1,https://lcsc.com/product-detail/C2297.html
+D3,APHCM2012QBC/D-F01,1,https://lcsc.com/product-detail/C2293.html
+D2,APHCM2012SURCK-F01,1,https://lcsc.com/product-detail/C84256.html
+D1,CD1206-S01575,1,https://lcsc.com/product-detail/C75465.html
+"C8, C9, C14, C15",CL21B105KBFNNNE,4,https://lcsc.com/product-detail/C28323.html
+"C2, C3",CL21C220JBANNNC,2,https://lcsc.com/product-detail/C1804.html
+"C12, C11, C5, C4",CL21A106KAYNNNE,4,https://lcsc.com/product-detail/C15850.html
+"C1, C6, C7, C10, C13",CC0805KRX7R9BB104,5,https://lcsc.com/product-detail/C49678.html
