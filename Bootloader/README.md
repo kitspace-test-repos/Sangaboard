@@ -4,6 +4,19 @@ You only need to isntall a bootloader if you solder your own v0.3 or v0.4 Sangab
 
 The Sangaboard v0.4 and v0.4 works perfectly well with the Ardunio Leonardo bootloader, but it is preferable to have a custom one so the board identifies as what it is. This repo allows you to burn the custom bootloader and to have the Sangaboard as a board option in your IDE.
 
+## Recompiling the boot loader
+
+**Note: Compiled .hex files in this repository mean you should not need to do this stage.**
+
+To recompile on Ubuntu all of the LUFA libraries should now be included. First install the prerequisite packages:
+
+    sudo apt-get install binutils gcc-avr avr-libc uisp avrdude flex byacc bison
+
+Then cd into the src folder for the baord you wish to compile for and run
+
+    make
+
+
 ## Installing the Sangaboard into the Arduino IDE
 
 The install process is pretty manual. It has been tested for version 1.8.5 of the Arduino IDE.
@@ -12,9 +25,9 @@ The install process is pretty manual. It has been tested for version 1.8.5 of th
 1. Copy the file `Sanga.hex` from this directory into `ArduinoDIR/hardware/arduino/avr/bootloaders/caterina`
 1. Go to the `ArduinoDIR/hardware/arduino/avr` directory and open up the file boards.txt
 1. Copy the contents of the file `boards_add.txt` also in this directory into the bottom of the boards.txt file.
-1. Celebrate a job well done.
+1. Celebrate a job well done (Hopefully).
 
-## Buring the bootloader
+## Burning the bootloader
 
 We burn the bootloader with an OLIMEX AVR-ISP-MK2.
 

@@ -29,6 +29,7 @@
 */
 
 //Modified 2019 for the Sangaboard by Julian Stirling
+//Modified 2021 for the Sangaboard v0.4 by Julian Stirling
 
 
 /** \file
@@ -37,7 +38,7 @@
  */
 
 #define  INCLUDE_FROM_SANGA_C
-#include "Sanga.h"
+#include "Sanga_v0.4.h"
 
 /** Contains the current baud rate and other settings of the first virtual serial port. This must be retained as some
  *  operating systems will not open the port unless the settings can be set successfully.

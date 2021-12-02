@@ -9,7 +9,7 @@ The first step is to make and populate the PCB.  You can get in touch with [STIC
 ## Firmware and bootloader
 
 #### [Installing the Sangaboard bootloader](./Bootloader/README.md)
-You only need to isntall a bootloader if you solder your own v0.3 or v0.4 Sangaboard! Otherwise you can skip this step.
+You only need to install a bootloader if you solder your own v0.3 or v0.4 Sangaboard! Otherwise you can skip this step.
 
 #### [Installing the Sangaboard firmware](./arduino_code/README.md)
 The Sangaboard firmware is an Arduino sketch, we use the same sketch for all versions of the Sangaboard.
@@ -23,10 +23,10 @@ Or by the pySangaboard python library.
 ## Credits
 
 * Firmware (and bootloader modifications) by Richard Bowman and Julian Stirling, University of Bath
-* PCB design by Sanga Valerian, STICLab.
+* PCB design by Sanga Valerian, Bongo Tech & Research Labs.
 * Fergus Riche (University of Cambridge, UK) hacked the stepper library to make it work with the stepper motors we are using, and is a major contributor to the v3 PCB design
 * Boyko Vodenicharski and Filip Ayazi (University of Cambridge, UK) contributed to the firmware for v0.3.
 
 Development of this board and software was funded by the EPSRC (EP/P029426/1), the Royal Commission for the Exhibition of 1851, and the University of Bath.
 
-(c) The authors, 2017,2018,2019. Released under CERN Open Hardware License (hardware designs) and GNU GPL v3.0 (firmware). The bootloader is only very slightly modified from the Arduino Leonardo bootloader, licences are listed in the source.
+(c) The authors, 2017-2021. Released under CERN Open Hardware License (hardware designs) and GNU GPL v3.0 (firmware). The bootloader is only very slightly modified from the Arduino Leonardo bootloader, licences are listed in the source.

@@ -1,6 +1,6 @@
 # Hey Emacs, this is a -*- makefile -*-
 #----------------------------------------------------------------------------
-# WinAVR Makefile Template written by Eric B. Weddington, Jörg Wunsch, et al.
+# WinAVR Makefile Template written by Eric B. Weddington, Jï¿½rg Wunsch, et al.
 #  >> Modified for use with the LUFA project. <<
 #
 # Released to the Public Domain
@@ -19,6 +19,7 @@
 # Denver Gingerich
 #
 # Modified by for the Sangaboard by Julian Stirling
+# Modified 2021 for the Sangaboard v0.4 by Julian Stirling
 #
 #----------------------------------------------------------------------------
 # On command line:
@@ -50,7 +51,7 @@
 
 
 VID = 0xF055
-PID = 0x5AB0
+PID = 0x5AB4
 
 # MCU name
 MCU = atmega32u4
@@ -77,7 +78,7 @@ BOARD = USER
 #     does not *change* the processor frequency - it should merely be updated to
 #     reflect the processor speed set externally so that the code can use accurate
 #     software delays.
-F_CPU = 16000000
+F_CPU = 8000000
 
 
 # Input clock frequency.
@@ -109,7 +110,7 @@ FORMAT = ihex
 
 
 # Target file name (without extension).
-TARGET = Sanga
+TARGET = Sanga_v0.4
 
 
 # Object files directory
@@ -119,7 +120,7 @@ OBJDIR = .
 
 
 # Path to the LUFA library
-LUFA_PATH = ../../../../../../../lib/lufa-LUFA-111009
+LUFA_PATH = ../LUFA-111009
 
 
 # LUFA library compile-time options and predefined tokens
