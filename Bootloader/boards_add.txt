@@ -55,7 +55,7 @@ sangaboardv04.bootloader.unlock_bits=0x3F
 sangaboardv04.bootloader.lock_bits=0x2F
 
 sangaboardv04.build.mcu=atmega32u4
-sangaboardv04.build.f_cpu=16000000L
+sangaboardv04.build.f_cpu=8000000L
 sangaboardv04.build.vid=0xF055
 sangaboardv04.build.pid=0x5AB0
 sangaboardv04.build.usb_product="Sangaboard v0.3"
